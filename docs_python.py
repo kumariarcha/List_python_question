@@ -1,18 +1,20 @@
-# from tkinter import N
 
-
-n=input("enter the string:-")
-lenght=len(n)
+# n=input("enter the string:-")
+# lenght=len(n)
 # for row in range(lenght):
 #     for col in range(row+1):
 #         print(n[col],end=" ")
 #     print()
 
-row=1
-while row<=n:
-    col=1
-    while col<=row:
-        print(str(col),end=" ")
-        col=col+1
+
+
+a="python"
+x=len(a)
+i=0
+while i<x:
+    j=0
+    while j<=i:
+        print(a[j],end=" ")
+        j=j+1
     print()
-    row=row+1
+    i=i+1
