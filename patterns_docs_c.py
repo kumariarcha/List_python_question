@@ -2,7 +2,7 @@
 # 4444
 
 i=5
-while i>3:
+while i>=1:
     j=1
     while j<=i:
         print(i,end=" ")
